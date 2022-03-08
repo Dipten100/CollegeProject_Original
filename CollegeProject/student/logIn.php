@@ -13,9 +13,9 @@
                         if(isset($check)){
                                     echo "<script type='text/javascript'>
                                                 alert('Log in Successfull');
+                                                open('mytest.php','_self');
                                                 </script>"
                                                 ;
-                                                include("mytest.php");
                                                 return true;
                         }else{
                                     echo "<script type='text/javascript'>
